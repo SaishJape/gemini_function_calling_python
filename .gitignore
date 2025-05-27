@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode / IDE config
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and local dev output
+*.log
+
+# Environment variable files
+.env
+.env.*
+
+# Python dependency files (optional if you regenerate)
+poetry.lock
+Pipfile.lock
+
+# Gemini API cache/config (if using anything local)
+.gemini/
+
+# Test artifacts
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy / pylint / pyright
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
